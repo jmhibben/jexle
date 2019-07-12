@@ -1,0 +1,30 @@
+{
+  "name": "template-engine",
+  "version": "0.0.1",
+  "description": "Template engine for Markadillo, built as a standalone manager",
+  "main": "app.js",
+  "author": "James Hibben <jmhibben@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"parcel watch index.html\" \"npm run serve\"",
+    "build": "",
+    "serve": "node server/server",
+    "test": ""
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "mobx": "^5.10.1",
+    "mobx-preact": "^3.0.0",
+    "preact": "^8.4.2",
+    "preact-material-components": "^1.5.8",
+    "preact-routlet": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "concurrently": "^4.1.1",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.21.0",
+    "typescript": "^3.5.2"
+  }
+}

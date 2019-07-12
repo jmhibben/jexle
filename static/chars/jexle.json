@@ -1,0 +1,32 @@
+{
+    "name": "Jexle Avinor Hartwell",
+    "basic": {
+        "age": "Unknown",
+        "gender": "Male"
+    },
+    "career": {
+        "company": "Hartwell Clinic for Relaxation",
+        "by-line": "Walk-ins Welcome",
+        "position": "Owner",
+        "years": "1019 -"
+    },
+    "details": {
+        "species": "Demon",
+        "height": "5'7\" (1.7m)",
+        "weight": "145 lbs (65.77 kg)"
+    },
+    "family": {
+        "mother": "Mom Hartwell",
+        "father": "Dad Hartwell",
+        "aspects": [
+            "Goruth",
+            "Chavros",
+            "Night",
+            "Many Feet"
+        ],
+        "spouses": [],
+        "children": [
+            "Leilana"
+        ]
+    }
+}
