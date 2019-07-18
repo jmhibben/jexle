@@ -10,7 +10,25 @@
     "dev": "concurrently \"parcel watch index.html\" \"npm run serve\"",
     "build": "",
     "serve": "node server/server",
-    "test": ""
+    "test": "ava",
+    "test:w": "ava --watch"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.spec.ts",
+      "!node_modules"
+    ],
+    "sources": [
+      "src/**/*.ts"
+    ],
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "tap": true,
+    "verbose": true
   },
   "dependencies": {
     "@hapi/hapi": "^18.3.1",
@@ -28,6 +46,7 @@
     "lodash-es": "^4.17.14",
     "parcel-bundler": "^1.12.3",
     "sass": "^1.21.0",
+    "ts-node": "^8.3.0",
     "typescript": "^3.5.2"
   }
 }
